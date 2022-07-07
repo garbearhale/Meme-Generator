@@ -1,0 +1,17 @@
+h1 {
+    background-color: rgb(205, 50, 125);
+}
+
+body {
+    background-color: lightpink;
+}
+
+input[type='text'],
+input[type='range'] {
+    width: 100%;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+}

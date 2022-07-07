@@ -6,28 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meme Generator</title>
+    <link rel="stylesheet" href="meme.css">
 </head>
 <!-- Okay I can't figure this out so this is the best I can do -->
 
 <body>
-    <h1>Create your Meme</h1>
-<!--     <img id="makeMeme">
-    </img> -->
-    <form>
-        <label for="memeUrl"></label>
-        <input type="url" id="memeUrl" placeholder="Enter a link to an image" />
-        <br>
-        <label for="memeTop"></label>
-        <input type="text" id="memeTop" placeholder="Enter text for the top of meme" />
-        <br>
-        <label for="memeBottom"></label>
-        <input type="text" id="memeBottom" placeholder="Enter text for the bottom of meme" />
-        <br>
-        <button>Add Meme</button>
-    </form>
-    <div id="makeMeme"><div>
+    <h1>Meme Generator</h1>
+    <div class="box">
+        <input id="imgURL" class="block" type="url" placeholder="Link to image" />
+        <div class="box">
+            <div>
+                <p>Top Text</p>
+                <input id="textTop" type="text" class="block" placeholder="Top text" />
+            </div>
+            <div>
+                <p>Bottom Text</p>
+                <input id="textBottom" type="text" class="block" placeholder="Bottom text" />
+            </div>
+        </div>
+    </div>
+    <button>Submit Meme</button>
+    <div id="memesList"></div>
 
-    <script src="meme.js.js"></script>
+    <script src="meme.js"></script>
 
 </body>
 

@@ -1,0 +1,35 @@
+.meme-generator {
+    margin: auto;
+    width: 350px;
+}
+
+.meme-generator label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.meme-generator input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#imgURL {
+    position: relative;
+}
+
+#imgFile {
+    position: relative;
+    left: 150px;
+    bottom: 70px;
+}
+
+#imgURl,
+#imgFile {
+    margin-bottom: -10px;
+}
+
+#button {
+    position: relative;
+    bottom: 165px;
+}
